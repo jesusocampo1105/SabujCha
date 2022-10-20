@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+.section1-logo img{
+    width: 250px;
+}
+.section1-menu{
+    display: none;
+    align-items: center;
+}
+.section1-menu a{
+    text-decoration: none;
+    color: black;
+    margin: 4%;
+}
+.section2{
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+.section2 img{
+    max-width: 45px;
+    max-height: 45px;
+    padding: 4px;
+}
+.portada{
+    margin-top: 45px;
+    margin-bottom: 64px;
+}
+.portada img{
+    width: 100%;
+    height: 100%;
+}
+.portada-text {
+    position: absolute;
+    top: 13%;
+    font-size: 30px;
+    text-align: center;
+    width: 100%;
+}
+.banner1{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    left: 0;
+    margin-bottom: 30px;
+}
+
+
+.banner1-text {
+    position: absolute;
+    top: 40%;
+    font-size: 29px;
+    right: 56%;
+}
+.banner1-text p:nth-child(1){
+    color: green;
+    font-size: 40px;
+}
+.banner1-text p:nth-child(2){
+    font-size: 20px;
+}
+.banner2{
+    position: relative;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.banner2-text {
+    position: absolute;
+    top: 40%;
+    font-size: 29px;
+    right: 56%;
+}
+.banner2-text p:nth-child(1){
+    color: green;
+    font-size: 40px;
+}
+.banner2-text p:nth-child(2){
+    font-size: 20px;
+}
+
+
+@media (min-width: 900px) {
+    .section2 img:nth-child(4){
+        display: none;
+    }
+    .section1-menu{
+        display: flex;
+    }
+    .section2 img{
+        max-width: 33px;
+        max-height: 33px;
+        padding: 4px;
+    }
+    .portada-text {
+        font-size: 50px;
+    }
+    
+}
+
+@media (min-width: 1200px) {
+    .banner{
+        display: flex;
+        top: 10px;
+        justify-content: center;
+    }
+    .banner1{
+        left: -20px;
+    }
+    .banner2{
+        left: 40px;
+    }
+}
+
+
