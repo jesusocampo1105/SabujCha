@@ -6,7 +6,7 @@
     justify-content: space-between;
 }
 .section1-logo img{
-    width: 250px;
+    width: 220px;
 }
 .section1-menu{
     display: none;
@@ -29,8 +29,8 @@
     font-weight: bold;
 }
 .section2 img{
-    max-width: 45px;
-    max-height: 45px;
+    max-width: 35px;
+    max-height: 35px;
     padding: 4px;
 }
 .portada{
@@ -43,7 +43,7 @@
 }
 .portada-text p:nth-child(1){
     position: absolute;
-    top: 13%;
+    top: 15%;
     font-size: 30px;
     text-align: center;
     width: 100%;
@@ -51,7 +51,7 @@
 }
 .portada-text p:nth-child(2){
     position: absolute;
-    top: 21%;
+    top: 23%;
     font-size: 22px;
     text-align: center;
     width: 100%;
@@ -63,6 +63,7 @@
     justify-content: center;
     left: 0;
     margin-bottom: 30px;
+    width: 78%;
 }
 
 
@@ -84,7 +85,7 @@
     position: relative;
     display: flex;
     justify-content: center;
-
+    width: 78%;
 }
 
 
