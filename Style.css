@@ -26,6 +26,7 @@
 }
 .section2 p{
     font-family: 'Lora', serif;
+    font-weight: bold;
 }
 .section2 img{
     max-width: 45px;
@@ -101,25 +102,46 @@
     font-size: 20px;
     font-family: 'Playfair Display', serif;
 }
-.products{
+.products, .latest{
     background-image: url(./Img/bg-1.jpg);
 }
 .products-text,
-.productsnews-text{
+.productsnews-text,
+.latest-text h1{
     text-align: center;
     margin-top: 55px;
     padding: 69px;
+    font-family: 'Lora', serif;
 }
 .products-text h3:nth-child(1),
 .productsnews-text h3:nth-child(1){
     font-size: 40px;
     font-family: 'Playfair Display', serif;
+
+}
+.latest-text h1:nth-child(1){
+    font-size: 35px;
+    font-family: 'Playfair Display', serif;
+    color: #303030;
+}
+.products-text p{
+    color: #575757;
+}
+.productsnews-text p{
+    color: #575757;
 }
 .products-text p:nth-child(2),
 .productsnews-text p:nth-child(2){
     font-size: 23px;
     font-family: 'Lora', serif;
 }
+.product1latest-text p:nth-child(4),
+.product2latest-text p:nth-child(4),
+.product3latest-text p:nth-child(4){
+    font-family: 'Lora', serif;
+    font-weight: 600;
+}
+
 .product1-image,
 .product2-image,
 .product3-image,
@@ -131,11 +153,14 @@
 .product5new-image,
 .product6new-image,
 .product7new-image,
-.product8new-image{
+.product8new-image,
+.product1latest-image,
+.product2latest-image,
+.product3latest-image{
     display: flex;
     justify-content: center;
     position: relative;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
 }
 .product1-image img,
 .product2-image img,
@@ -244,13 +269,121 @@
     font-family: 'Lora', serif;
 }
 .phrase-text p:nth-child(3){
-    font-size: 11px;
+    font-size: 12px;
     font-family: 'Work Sans', sans-serif;
 }
 .productsnews{
     background: #f1f1f1;
 }
+.product1latest-image img,
+.product2latest-image img,
+.product3latest-image img{
+    width: 70%;
+}
+.product1latest-text p:nth-child(1),
+.product2latest-text p:nth-child(1),
+.product3latest-text p:nth-child(1){
+    font-family: 'Lora', serif;
+    color: #529F0F;
+    font-size: 18px;
+    font-weight: bold;
+}
+.product1latest-text p:nth-child(2),
+.product2latest-text p:nth-child(2),
+.product3latest-text p:nth-child(2){
+    font-size: 30px;
+    font-family: 'Playfair Display', serif;
+}
+.product1latest-text p:nth-child(3),
+.product2latest-text p:nth-child(3),
+.product3latest-text p:nth-child(3){
+    color: #575757;
+    font-family: 'Lora', serif;
+    font-size: 24px;
+}
+.product1latest-text p:nth-child(4),
+.product2latest-text p:nth-child(4),
+.product3latest-text p:nth-child(4){
+    font-family: 'Lora', serif;
+    font-size: 16px;
+}
+.product1latest-text,
+.product2latest-text,
+.product3latest-text{
+    position: static;
+    margin-left: 15%;
+    margin-bottom: 50px;
+}
+.partners{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 55px;
+    margin-top: 55px;
+}
+.partner1{
+    width: 264px;
+}
+#partner2,
+#partner3,
+#partner4,
+#partner5{
+    display: none;
+}
+.newsletter{
+    background: url(./Img/bg-2.jpg);
+    height: 236px;
+}
+.newsletter-text{
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    margin-bottom: 36px;
+    margin-top: 79px;
+    font-family: 'Playfair Display', serif;
+}
+.newsletter-form{
+    display: flex;
+    justify-content: center;
+}
+.newsletter-form input{
+    height: 54px;
+    width: 230px;
+}
+.newsletter-form button{
+    background: black;
+    color: white;
+}
+footer{
+    background: #f1f1f1;
+    padding: 10px;
+}
+footer h2{
+    font-family: 'Playfair Display', serif;
+    padding: 16px;
+}
+footer p{
+    padding: 13px;
+    font-family: 'Lora', serif;
+    font-size: 19px;
+}
+.Partend{
+    background: #dcdcdc;
+    padding: 31px;
+}
+.partend-text{
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 22px;
+    font-family: 'Lora', serif;
+}
+.partend-pay{
+    display: flex;
+    justify-content: center;
 
+}
+.partend-pay img{
+    width: 436px;
+}
 
 
 @media (min-width: 900px) {
@@ -259,6 +392,7 @@
     }
     .section1-menu{
         display: flex;
+        font-weight: bold;
     }
     .section2 img{
         max-width: 33px;
@@ -267,7 +401,7 @@
     }
     .portada-text p:nth-child(1){
         font-size: 64px;
-    top: 197px;
+        top: 197px;
     }
     .portada-text p:nth-child(2){
         font-size: 36px;
@@ -275,7 +409,8 @@
     }
     .cards,
     .cards1news,
-    .cards2news{
+    .cards2news,
+    .latest-products{
         display: flex;
         justify-content: space-evenly;
     }
@@ -326,6 +461,36 @@
     .product7newnew-text,
     .product8new-text{
         margin-left: 5%;
+    }
+    #partner2,
+    #partner3,
+    #partner4,
+    #partner5{
+        display: flex;
+    }
+    #partner1,
+    #partner2,
+    #partner3,
+    #partner4,
+    #partner5{
+        width: 264px;
+    }
+    footer{
+        display: flex;
+        justify-content: space-evenly;
+        padding: 61px;
+    }
+    .Partend{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .partend-pay img{
+        width: 270px;
+        height: 28px;
+    }
+    .Partend{
+        padding: 7px;
     }
 }
 
