@@ -11,6 +11,8 @@
 .section1-menu{
     display: none;
     align-items: center;
+    font-size: 16px;
+    font-family: 'Lora', serif;
 }
 .section1-menu a{
     text-decoration: none;
@@ -21,6 +23,9 @@
     display: flex;
     align-items: center;
     margin: 10px;
+}
+.section2 p{
+    font-family: 'Lora', serif;
 }
 .section2 img{
     max-width: 45px;
@@ -35,12 +40,21 @@
     width: 100%;
     height: 100%;
 }
-.portada-text {
+.portada-text p:nth-child(1){
     position: absolute;
     top: 13%;
     font-size: 30px;
     text-align: center;
     width: 100%;
+    font-family: 'Playfair Display', serif;
+}
+.portada-text p:nth-child(2){
+    position: absolute;
+    top: 21%;
+    font-size: 22px;
+    text-align: center;
+    width: 100%;
+    font-family: 'Lora', serif;
 }
 .banner1{
     position: relative;
@@ -58,11 +72,12 @@
     right: 56%;
 }
 .banner1-text p:nth-child(1){
-    color: green;
+    color: #529F0F;
     font-size: 40px;
 }
 .banner1-text p:nth-child(2){
     font-size: 20px;
+    font-family: 'Playfair Display', serif;
 }
 .banner2{
     position: relative;
@@ -79,12 +94,163 @@
     right: 56%;
 }
 .banner2-text p:nth-child(1){
-    color: green;
+    color: #529F0F;
     font-size: 40px;
 }
 .banner2-text p:nth-child(2){
     font-size: 20px;
+    font-family: 'Playfair Display', serif;
 }
+.products{
+    background-image: url(./Img/bg-1.jpg);
+}
+.products-text,
+.productsnews-text{
+    text-align: center;
+    margin-top: 55px;
+    padding: 69px;
+}
+.products-text h3:nth-child(1),
+.productsnews-text h3:nth-child(1){
+    font-size: 40px;
+    font-family: 'Playfair Display', serif;
+}
+.products-text p:nth-child(2),
+.productsnews-text p:nth-child(2){
+    font-size: 23px;
+    font-family: 'Lora', serif;
+}
+.product1-image,
+.product2-image,
+.product3-image,
+.product4-image,
+.product1new-image,
+.product2new-image,
+.product3new-image,
+.product4new-image,
+.product5new-image,
+.product6new-image,
+.product7new-image,
+.product8new-image{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-bottom: 20px;
+}
+.product1-image img,
+.product2-image img,
+.product3-image img,
+.product4-image img,
+.product1new-image img,
+.product2new-image img,
+.product3new-image img,
+.product4new-image img,
+.product5new-image img,
+.product6new-image img,
+.product7new-image img,
+.product8new-image img{
+    width: 60%;
+}
+
+
+.product1-image p,
+.product3-image p,
+.product1new-image p,
+.product2new-image p,
+.product4new-image p,
+.product5new-image p,
+.product7new-image p{
+    position: absolute;
+    top: 34px;
+    left: 24%;
+    background: #529F0F;
+    border-radius: 100%;
+    width: 71px;
+    height: 70px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.product1-text,
+.product2-text,
+.product3-text,
+.product4-text,
+.product1new-text,
+.product2new-text,
+.product3new-text,
+.product4new-text,
+.product5new-text,
+.product6new-text,
+.product7new-text,
+.product8new-text{
+    position: static;
+    margin-left: 20%;
+    margin-bottom: 50px;
+}
+.product1-text p:nth-child(1),
+.product2-text p:nth-child(1),
+.product3-text p:nth-child(1),
+.product4-text p:nth-child(1),
+.product1new-text p:nth-child(1),
+.product2new-text p:nth-child(1),
+.product3new-text p:nth-child(1),
+.product4new-text p:nth-child(1),
+.product5new-text p:nth-child(1),
+.product6new-text p:nth-child(1),
+.product7new-text p:nth-child(1),
+.product8new-text p:nth-child(1){
+    font-size: 20px;
+    font-family: 'Work Sans', sans-serif;
+
+}
+.product1-text p:nth-child(2),
+.product2-text p:nth-child(2),
+.product3-text p:nth-child(2),
+.product4-text p:nth-child(2),
+.product1new-text p:nth-child(2),
+.product2new-text p:nth-child(2),
+.product3new-text p:nth-child(2),
+.product4new-text p:nth-child(2),
+.product5new-text p:nth-child(2),
+.product6new-text p:nth-child(2),
+.product7new-text p:nth-child(2),
+.product8new-text p:nth-child(2){
+    font-size: 18px;
+    font-family: 'Lora', serif;
+}
+.phrase{
+    margin: 60px;
+}
+.phrase-image{
+    display: flex;
+    justify-content: center;
+    margin: 35px;
+}
+.phrase-text{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.phrase-text p:nth-child(1){
+    font-size: 22px;
+    font-family: 'Lora', serif;
+    margin-bottom: 25px;
+}
+.phrase-text p:nth-child(2){
+    font-size: 9px;
+    font-weight: bold;
+    margin-bottom: 17px;
+    font-family: 'Lora', serif;
+}
+.phrase-text p:nth-child(3){
+    font-size: 11px;
+    font-family: 'Work Sans', sans-serif;
+}
+.productsnews{
+    background: #f1f1f1;
+}
+
 
 
 @media (min-width: 900px) {
@@ -99,10 +265,68 @@
         max-height: 33px;
         padding: 4px;
     }
-    .portada-text {
-        font-size: 50px;
+    .portada-text p:nth-child(1){
+        font-size: 64px;
+    top: 197px;
     }
-    
+    .portada-text p:nth-child(2){
+        font-size: 36px;
+        top: 384px;
+    }
+    .cards,
+    .cards1news,
+    .cards2news{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .product1-image img,
+    .product2-image img,
+    .product3-image img,
+    .product4-image img,
+    .product1new-image img,
+    .product2new-image img,
+    .product3new-image img,
+    .product4new-image img,
+    .product5new-image img,
+    .product6new-image img,
+    .product7new-image img,
+    .product8new-image img{
+        width: 90%;
+    }
+    .product1-image p,
+    .product3-image p,
+    .product1new-image p,
+    .product2new-image p,
+    .product4new-image p,
+    .product5new-image p,
+    .product7new-image p{
+        position: absolute;
+        top: 8px;
+        left: 9%;
+        background: green;
+        border-radius: 100%;
+        width: 53px;
+        height: 53px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+    }
+    .product1-text,
+    .product2-text,
+    .product3-text,
+    .product4-text,
+    .product1new-text,
+    .product2new-text,
+    .product3new-text,
+    .product4new-text,
+    .product5new-text,
+    .product6new-text,
+    .product7newnew-text,
+    .product8new-text{
+        margin-left: 5%;
+    }
 }
 
 @media (min-width: 1200px) {
@@ -116,6 +340,15 @@
     }
     .banner2{
         left: 40px;
+        height: 272px;
+    }
+    .portada-text p:nth-child(1){
+        font-size: 74px;
+        top: 300px;
+    }
+    .portada-text p:nth-child(2){
+        font-size: 36px;
+        top: 520px;
     }
 }
 
