@@ -495,11 +495,17 @@ footer p{
         padding: 7px;
     }
     .banner1{
+        position: relative;
+        display: flex;
+        justify-content: center;
         left: 0px;
         margin-bottom: 30px;
         width: 100%;
     }
     .banner2{
+        position: relative;
+        display: flex;
+        justify-content: center;
         left: 0px;
         margin-bottom: 30px;
         width: 100%;
