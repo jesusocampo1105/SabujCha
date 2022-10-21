@@ -518,6 +518,7 @@ footer p{
         display: flex;
         top: 10px;
         justify-content: center;
+        padding: 39px;
     }
     .banner1{
         left: -20px;
