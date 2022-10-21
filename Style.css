@@ -44,14 +44,14 @@
 .portada-text p:nth-child(1){
     position: absolute;
     top: 15%;
-    font-size: 30px;
+    font-size: 28px;
     text-align: center;
     width: 100%;
     font-family: 'Playfair Display', serif;
 }
 .portada-text p:nth-child(2){
     position: absolute;
-    top: 23%;
+    top: 25%;
     font-size: 22px;
     text-align: center;
     width: 100%;
@@ -71,7 +71,7 @@
     position: absolute;
     top: 40%;
     font-size: 29px;
-    right: 56%;
+    right: 45%;
 }
 .banner1-text p:nth-child(1){
     color: #529F0F;
@@ -94,7 +94,7 @@
     position: absolute;
     top: 40%;
     font-size: 29px;
-    right: 56%;
+    right: 45%;
 }
 .banner2-text p:nth-child(1){
     color: #529F0F;
